@@ -1,0 +1,51 @@
+
+.createRoomContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    
+  }
+  
+  .createRoomBox {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .createRoomBox h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .createRoomBox button,
+  .createRoomBox input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .createRoomBox input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding-left: 8px;
+  }
+  
+  .createRoomBox button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  .createRoomBox button:hover {
+    background-color: gray;
+  }
+  

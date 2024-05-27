@@ -1,0 +1,42 @@
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 76vh;
+  background-color: black;
+  padding: 100px;
+  
+  
+}
+
+
+
+.loginBox {
+  background-color: white;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-right: 70px;
+}
+
+.loginBox h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.loginButton {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loginButton:hover {
+  background-color: grey;
+}
