@@ -23,6 +23,7 @@ const ChatRoom: React.FC = () => {
 
 
   useEffect(() => {
+    
     if (user && id) {
       const userRef = doc(db, "rooms", id, "users", user.uid);
       setDoc(userRef, {
